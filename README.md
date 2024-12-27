@@ -15,7 +15,7 @@ Save the challenge's mock data as `providers.csv` in the data folder, i.e. `[pat
 ```
 python -mvenv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+pip install -r backend/requirements.txt
 ```
 
 ### 3. Start the backend and try a sample request
