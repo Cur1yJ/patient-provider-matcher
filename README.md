@@ -4,6 +4,60 @@ This app is the solution to Anise Health's take-home coding challenge, an app th
 
 To work within the challenge's tight time constraints this uses an extremely simple substring based matching for ranking and filtering. For production use, I encourage exploration of vector based databases and/or search platforms like Elastic Search.
 
+------------
+
+## Story:
+We’d like you to tackle a simplified problem inspired by our work: building a web app for matching patients with therapists, considering performance, data privacy, and adaptability to changing user needs.
+
+## The Challenge:
+Patients are matched to therapists who best meet their needs in order to maximize the chance of treatment success. Build a web app that matches new patients to available therapists based on a number of criteria which will influence their fit. This is intentionally scoped to be completed in 3-5 hours - use any tools you prefer. 
+
+## Objective: 
+Design and implement a web app that:
+1. Accepts a patient’s request with their needs/preferences.
+2. Matches the patient to a suitable provider based on predefined criteria.
+3. Returns up to 3 best matches with relevant details.
+
+## Requirements:
+1. Input: Implement an API endpoint where a patient can submit:
+   - Areas of Concern: (e.g., anxiety, depression, racial identity related issues, academic stress, Trauma-related stress, Work-related stress, insomnia).
+   - Preferred Treatment Modality: (e.g., cognitive behavioral therapy, dialectical behavior therapy, acceptance and commitment therapy, EMDR) 
+   - Demographics: (e.g. Japanese, Christian, married)
+   - Therapist Preferences: (e.g., female, East Asian, Muslim).
+   - Location: (e.g., California, New York).
+   - Payment Method: (e.g. Aetna, Magellan, Anthem, Self-pay)
+
+2. Logic: Use predefined mock data for providers with the following fields:
+   - Name, specialty, treatment modality, location, ethnic/gender identity, sexual orientation, language(s), short bio, capacity [provide mock data in CSV]
+   - Here is some [mock data](https://drive.google.com/file/d/1D6ojpiZ4tVKYxislB_DwTo64n52NVa8-/view?usp=drive_link) with sample providers. Feel free to modify and/or expand upon it as you see fit.
+
+3. Output:
+   - Return up to 3 best matches for the patient, including provider’s full profile
+   - Do not worry about the UI of the output
+
+4. Technical Notes:
+   - Use any programming language or framework you prefer.
+      - Slight preference for Anise’s tech stack:
+         - Frontend: Angular [Javascript]
+         - Backend: Springboot [Java], Prefect [Python]
+  - Use any AI tools, frameworks, or libraries you need.
+   - Use mock data for providers. No need for a persistent database.
+   - Focus on functionality and code quality rather than complex algorithms.
+
+## Submission Guidelines
+1. Share your code repository 
+2. Include a README file with set up instructions and your approach 
+3. Be prepared to discuss improvements in the next round or scaling the system.
+4. Submit your project within 7 days of receiving this prompt.
+
+## What We're Looking For
+- A functional prototype that meets the core requirements.
+- Clean, maintainable, and well-structured code.
+- Logical, easy-to-follow matching implementation.
+- Product thinking around your matching criteria and design decisions.
+
+------------
+
 ## ⚡ Quick Start
 
 ### 1. Copy your providers CSV into the data folder
