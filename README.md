@@ -8,7 +8,7 @@ To work within the challenge's tight time constraints this uses an extremely sim
 
 ### 1. Copy your providers CSV into the data folder
 
-Save the mock data as `providers.csv`, i.e. `[path to this folder]/data/providers.csv`.
+Save the challenge's mock data as `providers.csv` in the data folder, i.e. `[path to this folder]/data/providers.csv`.
 
 ### 2. Install Python dependencies
 
