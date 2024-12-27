@@ -44,4 +44,4 @@ requests.post(
 
 ### 4. Start the frontend
 
-Run `make frontend.run` to start the frontend. Assuming you don't have any other services running on port 3000, it'll start listening at `http://127.0.0.1:3000`.
+Install dependencies with `cd frontend && npm i && cd ..` then run `make frontend.run` to start the frontend. Assuming you don't have any other services running on port 3000, it'll start listening at `http://127.0.0.1:3000`.
