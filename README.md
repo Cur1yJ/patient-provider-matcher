@@ -29,7 +29,7 @@ Design and implement a web app that:
 
 2. Logic: Use predefined mock data for providers with the following fields:
    - Name, specialty, treatment modality, location, ethnic/gender identity, sexual orientation, language(s), short bio, capacity [provide mock data in CSV]
-   - Here is some [mock data](https://drive.google.com/file/d/1D6ojpiZ4tVKYxislB_DwTo64n52NVa8-/view?usp=drive_link) with sample providers. Feel free to modify and/or expand upon it as you see fit.
+   - Here is some [mock data](https://github.com/Cur1yJ/patient-provider-matcher/blob/main/Take%20Home%20Exercise%20Providers%20Data.csv) with sample providers. Feel free to modify and/or expand upon it as you see fit.
 
 3. Output:
    - Return up to 3 best matches for the patient, including provider’s full profile
